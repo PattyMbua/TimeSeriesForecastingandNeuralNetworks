@@ -36,9 +36,9 @@
 
 | **Details**                                                                                        | **Comment** |
 |:---------------------------------------------------------------------------------------------------|:------------|
-| **Student ID:**                                                                                    |             |
-| **Name:**                                                                                          |             |
-| **What part of the lab did you personally contribute to,** <br>**and what did you learn from it?** |             |
+| **Student ID:** | 153845 |
+| **Name:** | Grace Wambugu |
+| **What part of the lab did you personally contribute to,** <br>**and what did you learn from it?** | Member D: Ran the JPM Ridge and Gradient Boosting next-day log-return analysis in Notebook 4 using walk-forward validation, training-only scaling, and tuning before the final test period. Checked for look-ahead bias and compared both models with the naive forecast using RMSE, MAE, out-of-sample R-squared, directional accuracy, and the Diebold-Mariano test. Learned that honest validation can show that a more complex model does not significantly outperform the naive forecast. |
 
 **Member 5**
 
