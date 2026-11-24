@@ -261,6 +261,12 @@ def build_features(frame):
     # Unusually heavy trading often comes with news.
     out["volume_rel_20d"] = np.log(volume / volume.rolling(20).mean())
 
+    # Recent trading activity relative to the longer baseline. Values above
+    # 1 mean the 10-day average volume is higher than the 60-day average.
+    out["volume_surge_10_60"] = (
+        volume.rolling(10).mean() / volume.rolling(60).mean().replace(0, np.nan)
+    )
+
     # ----------------------------------------------------------------------
     # GROUP 5: OTHER MARKETS - "What is happening in the wider world?"
     # ----------------------------------------------------------------------
@@ -335,7 +341,7 @@ FEATURE_GROUPS = {
     "technical": ["rsi_14", "macd_hist", "bb_percent_b", "bb_width",
                   "dist_sma_20", "dist_sma_50", "dist_sma_200",
                   "gap_overnight", "move_intraday"],
-    "volume": ["volume_rel_20d"],
+    "volume": ["volume_rel_20d", "volume_surge_10_60"],
     "other_markets": ["SP500_ret_1d", "SP500_ret_5d", "TECH_ret_1d", "TECH_ret_5d",
                       "GOLD_ret_1d", "GOLD_ret_5d", "BRENT_ret_1d", "BRENT_ret_5d",
                       "USD_ret_1d", "USD_ret_5d", "VIX_level", "VIX_change_1d",

@@ -11,5 +11,6 @@
             "addWords": true,
             "scope": "workspace"
         }
-    }
+    },
+    "python.defaultInterpreterPath": "${workspaceFolder}\\.venv\\Scripts\\python.exe"
 }
