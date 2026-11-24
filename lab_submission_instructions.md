@@ -10,27 +10,27 @@
 
 **Member 1**
 
-| **Details**                                                                                        | **Comment** |
-|:---------------------------------------------------------------------------------------------------|:------------|
-| **Student ID:**                                                                                    |             |
-| **Name:**                                                                                          |             |
-| **What part of the lab did you personally contribute to,** <br>**and what did you learn from it?** |             |
+| **Details**                                                                                        | **Comment**           |
+|:---------------------------------------------------------------------------------------------------|:----------------------|
+| **Student ID:**                                                                                    | 152569                |
+| **Name:**                                                                                          | Patriciah Kathambi Mbua |
+| **What part of the lab did you personally contribute to,** <br>**and what did you learn from it?** |    * What I did: I set up the group fork, downloaded and checked the JPM data, ran Notebook 1 on JPM and answered its exercises, and coordinate the Pull Requests and the submission.<br>* What I learnt: Same-day correlation is not a forecast, because tomorrow's return can only use information up to today. I also learnt that log returns add up across days and that real returns have fatter tails than a normal curve.                   |
 
 **Member 2**
 
-| **Details**                                                                                        | **Comment** |
-|:---------------------------------------------------------------------------------------------------|:------------|
-| **Student ID:**                                                                                    |             |
-| **Name:**                                                                                          |             |
-| **What part of the lab did you personally contribute to,** <br>**and what did you learn from it?** |             |
+| **Details**                                                                                        | **Comment**                                                                                                                                                                                                                                                                |
+|:---------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Student ID:**                                                                                    | 169388                                                                                                                                                                                                                                                                     |
+| **Name:**                                                                                          | Laura Chetalam Limo                                                                                                                                                                                                                                                        |
+| **What part of the lab did you personally contribute to,** <br>**and what did you learn from it?** | *What I did:* I ran Notebook 2 on JPM. I tested the stationarity of closing prices and daily log returns using the ADF and KPSS tests, examined rolling statistics, investigated spurious regression, compared GARCH models and answered the six required exercises. <br> *What I learnt:* I learnt that stock prices can be non-stationary even when their daily log returns are stationary. I also learnt that two unrelated time series can appear to have a strong relationship when they are non-stationary, leading to misleading results. |
 
 **Member 3**
 
-| **Details**                                                                                        | **Comment** |
-|:---------------------------------------------------------------------------------------------------|:------------|
-| **Student ID:**                                                                                    |             |
-| **Name:**                                                                                          |             |
-| **What part of the lab did you personally contribute to,** <br>**and what did you learn from it?** |             |
+| **Details**                                                                                         | **Comment**                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+|:----------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Student ID:**                                                                              |           167253                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| **Name:**                                                                                           |  Sandra Minoo Mbithi                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| **What part of the lab did you personally contribute to,** <br> **and what did you learn from it?** | I ran Notebook 3 on JPM. I compared the naive, drift, moving average, exponential smoothing, ARIMA and ARMAX forecasts using walk-forward validation and the Diebold-Mariano test, and I answered the seven exercises. <br> What I learnt: A forecast can look perfect on a chart and still be no better than "tomorrow equals today". I also learnt that removing the one-day shift on the predictors creates look-ahead bias, which makes results look excellent but false |
 
 **Member 4**
 
