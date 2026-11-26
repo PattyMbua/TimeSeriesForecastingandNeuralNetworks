@@ -200,6 +200,8 @@ Everything in Intermediate, and:
 
 For all three tiers, submit the link to a short video (not more than 4 minutes) that shows:
 
+Video Link: https://youtu.be/Qj5VDezB-7U
+
 1. Your stock and the data quality report.
 2. Your main result table, with the naive forecast in it, and what you conclude from it.
 3. Your Power BI report or dashboard with the forecast and the range.
