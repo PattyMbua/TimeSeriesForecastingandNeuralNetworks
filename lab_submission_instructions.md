@@ -42,11 +42,11 @@
 
 **Member 5**
 
-| **Details**                                                                                        | **Comment** |
-|:---------------------------------------------------------------------------------------------------|:------------|
-| **Student ID:**                                                                                    |             |
-| **Name:**                                                                                          |             |
-| **What part of the lab did you personally contribute to,** <br>**and what did you learn from it?** |             |
+| **Details**                                                                                        | **Comment**                                                                                                                                                                                                                                                                                                                                                       |
+|:---------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Student ID:**                                                                                    | 168330                                                                                                                                                                                                                                                                                                                                                            |
+| **Name:**                                                                                          | Nicole Gesare Monari                                                                                                                                                                                                                                                                                                                                              |
+| **What part of the lab did you personally contribute to,** <br>**and what did you learn from it?** | I generated the 63-day closing price forecast for JPM, including the lower and upper prediction bounds. I exported the forecast to a CSV file and created a Power BI report showing the last year of actual closing prices, the forecast and its uncertainty range. I also analysed the forecast uncertainty and completed exercises 6 and 7 of Notebook 4. <br> I learned how to forecast stock prices using predicted log returns, interpret prediction intervals and communicate forecast uncertainty through Power BI. I also learned how absolute error reduces the influence of extreme returns and why certain trading assumptions can make backtesting results overly optimistic |
 
 ## Scenario
 
