@@ -16,6 +16,8 @@
 | **Name:**                                                                                          | Patriciah Kathambi Mbua                                                                                                                                                                                                                                                                                                                                                                                                         |
 | **What part of the lab did you personally contribute to,** <br>**and what did you learn from it?** | I set up the group fork, downloaded and checked the JPM data, ran Notebook 1 on JPM and answered its exercises, and coordinated the Pull Requests and the submission.<br>I learnt that a same-day correlation is not a forecast, because tomorrow's return can only use information up to today. I also learnt that log returns add up across days and that real returns have fatter tails than a normal curve. |
 
+Link to my branch: https://github.com/PattyMbua/TimeSeriesForecastingandNeuralNetworks/pulls?q=is%3Apr+state%3Aclosed+author%3APattyMbua
+
 **Member 2**
 
 | **Details**                                                                                        | **Comment**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
@@ -23,6 +25,8 @@
 | **Student ID:**                                                                                    | 169388                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | **Name:**                                                                                          | Laura Chetalam Limo                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | **What part of the lab did you personally contribute to,** <br>**and what did you learn from it?** | What I did: I ran Notebook 2 on JPM. I tested the stationarity of closing prices and daily log returns using the ADF and KPSS tests, examined rolling statistics, investigated spurious regression, compared GARCH models and answered the six required exercises. <br> What I learnt: I learnt that stock prices can be non-stationary even when their daily log returns are stationary. I also learnt that two unrelated time series can appear to have a strong relationship when they are non-stationary, leading to misleading results. |
+
+Link to my branch: https://github.com/PattyMbua/TimeSeriesForecastingandNeuralNetworks/tree/feature/Laura-sandbox
 
 **Member 3**
 
@@ -32,6 +36,8 @@
 | **Name:**                                                                                           |  Sandra Minoo Mbithi                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | **What part of the lab did you personally contribute to,** <br> **and what did you learn from it?** | I ran Notebook 3 on JPM. I compared the naive, drift, moving average, exponential smoothing, ARIMA and ARMAX forecasts using walk-forward validation and the Diebold-Mariano test, and I answered the seven exercises. <br> What I learnt: A forecast can look perfect on a chart and still be no better than "tomorrow equals today". I also learnt that removing the one-day shift on the predictors creates look-ahead bias, which makes results look excellent but false |
 
+Link to my branch: https://github.com/PattyMbua/TimeSeriesForecastingandNeuralNetworks/tree/feature/Sandra-sandbox
+
 **Member 4**
 
 | **Details**                                                                                        | **Comment** |
@@ -40,6 +46,8 @@
 | **Name:** | Grace Wambugu |
 | **What part of the lab did you personally contribute to,** <br>**and what did you learn from it?** | Member D: Ran the JPM Ridge and Gradient Boosting next-day log-return analysis in Notebook 4 using walk-forward validation, training-only scaling, and tuning before the final test period. Checked for look-ahead bias and compared both models with the naive forecast using RMSE, MAE, out-of-sample R-squared, directional accuracy, and the Diebold-Mariano test. Learned that honest validation can show that a more complex model does not significantly outperform the naive forecast. |
 
+Link to my branch: https://github.com/PattyMbua/TimeSeriesForecastingandNeuralNetworks/tree/feature/grace-sandbox
+
 **Member 5**
 
 | **Details**                                                                                        | **Comment**                                                                                                                                                                                                                                                                                                                                                       |
@@ -47,6 +55,8 @@
 | **Student ID:**                                                                                    | 168330                                                                                                                                                                                                                                                                                                                                                            |
 | **Name:**                                                                                          | Nicole Gesare Monari                                                                                                                                                                                                                                                                                                                                              |
 | **What part of the lab did you personally contribute to,** <br>**and what did you learn from it?** | I generated the 63-day closing price forecast for JPM, including the lower and upper prediction bounds. I exported the forecast to a CSV file and created a Power BI report showing the last year of actual closing prices, the forecast and its uncertainty range. I also analysed the forecast uncertainty and completed exercises 6 and 7 of Notebook 4. <br> I learned how to forecast stock prices using predicted log returns, interpret prediction intervals and communicate forecast uncertainty through Power BI. I also learned how absolute error reduces the influence of extreme returns and why certain trading assumptions can make backtesting results overly optimistic |
+
+Link to my branch: https://github.com/PattyMbua/TimeSeriesForecastingandNeuralNetworks/tree/feature/nicole-sandbox
 
 ## Data Download Date
 
